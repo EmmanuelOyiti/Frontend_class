@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+#main {
+    border: 10px solid blue;
+    height: 100dvh;
+    background-image: url('Lighthouse.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    
+}

@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+}
+
+#main {
+    border: 10px solid blue;
+    height: 50dvh;
+    background-image: url('dog.jpg');
+    
+}

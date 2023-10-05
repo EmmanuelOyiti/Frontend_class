@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+
+#main {
+    height: 50dvh;
+    background-image: url('dog.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}

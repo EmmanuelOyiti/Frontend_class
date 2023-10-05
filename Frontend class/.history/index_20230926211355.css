@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#main {
+    height: 100dvh;
+    background-image: url('Lighthouse.png');
+    background-position: center;
+    background-size: cover;   
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    height: 24px;
+    width: 24px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 105px 0 96px
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.quote-button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: plum;
+}
