@@ -56,16 +56,19 @@ li {
   letter-spacing: -0.96px;
   margin-top: 284px;
   color: #606060;
+  margin-bottom: 222px;
 }
 
 
 .Projects {
   display: flex;
   justify-content: space-between;
+  flex: 1;
 }
 
 .Proj-name {
   margin-top: 113px;
+  float: left;
 }
 
 .proj-layout {
@@ -94,10 +97,29 @@ p.proj-info {
   letter-spacing: -0.42px;
 }
 
+.box-container {
+    float: right;
+    width: 640px;
+    height: 364.678px;
+    flex-shrink: 0;
+    background: var(--Main-Gray, #606060);
+    margin-left: 128px;
+}
+
+.last-container {
+    float: right;
+    width: 640px;
+    height: 250px;
+    flex-shrink: 0;
+    background: var(--Main-Gray, #606060);
+    margin-left: 128px;
+}
+
+
 .proj-link {
   margin-top: 151px;
   font-size: medium;
-}
+} */
 
 .proj-wip{
 	margin-top: 151px;
